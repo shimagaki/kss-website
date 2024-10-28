@@ -1,0 +1,80 @@
+site_name: Kai S. Shimagaki's website
+
+
+#use_directory_urls: False
+
+docs_dir: docs
+# Theme
+#theme:
+  #name: bootstrap4
+  #name: bootstrap
+      #name: material
+theme:
+  name: material 
+  palette: 
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+      primary: light blue
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+      primary: light blue
+  features:    
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.indexes
+    - navigation.instant
+
+
+
+
+extra_css:
+  - stylesheets/extra.css
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
+
+extra_javascript:
+  - javascripts/katex.js 
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js  
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/shimagaki
+    - icon: fontawesome/brands/google-scholar
+      link: https://scholar.google.com/citations?user=BJF41UIAAAAJ&hl=en 
+
+markdown_extensions:
+  - md_in_html
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.arithmatex:
+      generic: true
+
+# --- I could consider to use this. --- #
+extra:
+  analytics:
+    provider: google
+    property: G-MB8PZMSKWP
+
+# Navigation Menue
+nav:
+  - Home: 'index.md' 
+    #- Publications: pub.md
+  - Publications: 'publications.md' 
+  - Talks: 'talks.md' 
+  - CV: 'cv.md' 
+
+
