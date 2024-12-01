@@ -4,7 +4,7 @@ hide:
   #- toc
 ---
 
-## [Quantitatively comapre selection pressure in HIV and SHIV (temp) :fontawesome-solid-paperclip:{ .small-icon }](https://doi.org/10.1101/2024.07.12.603090)<br>
+## [Quantitatively comapre selection pressure in HIV and SHIV :fontawesome-solid-paperclip:{ .small-icon }](https://doi.org/10.1101/2024.07.12.603090)<br>
 <!--
 <div style="display: flex; align-items: center; gap: 20px;" markdown="1">
   ![Alt text for image](img/paper-hiv-coevo.png){ width=350px }
